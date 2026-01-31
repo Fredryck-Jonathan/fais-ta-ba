@@ -1,4 +1,16 @@
+//Base
+@use"./base/normalize";
+@use"./base/typography";
+
+//Layouts
+@use"./layouts/footer";
+
+//Components
+@use"./components/card_mission";
+@use"./components/modal_mission";
+
 
 //Page
 @use"./pages/home-page";
 @use"./pages/error-page";
+

@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 //import Header from './layouts/Header';
-//import Footer from './layouts/Footer';
+import Footer from './layouts/Footer';
 
 import Home from './pages/HomePage';
 import Error from './pages/ErrorPage';
@@ -26,6 +26,7 @@ function App() {
                 <Route path="/signin" element={<SignIn />} />
                 <Route path="*" element={<Error />} />
             </Routes>
+            <Footer></Footer>
         </Router>
     )
 }
