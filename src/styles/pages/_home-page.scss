@@ -1,0 +1,41 @@
+.home-page{
+
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .home-page__auth{
+
+        display: flex;
+        align-items: center;
+
+        gap: 50px;
+
+
+        a{
+
+            color: white;
+            background-color: black;
+            padding: 20px;
+            text-decoration: none;
+
+        }
+
+    }
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+
+
+
+
+}
